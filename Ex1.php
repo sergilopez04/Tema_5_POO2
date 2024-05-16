@@ -10,7 +10,7 @@ abstract class Animal{
         return $this->name;
     }
 
-    public function makeSound(){}
+    abstract public function makeSound();
 }
 
 class Dog extends Animal{
